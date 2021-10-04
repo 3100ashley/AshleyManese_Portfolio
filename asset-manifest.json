@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.js": "/AshleyManese_Portfolio/static/js/main.d321be4b.chunk.js",
+    "main.js.map": "/AshleyManese_Portfolio/static/js/main.d321be4b.chunk.js.map",
+    "runtime-main.js": "/AshleyManese_Portfolio/static/js/runtime-main.3325c7bb.js",
+    "runtime-main.js.map": "/AshleyManese_Portfolio/static/js/runtime-main.3325c7bb.js.map",
+    "static/css/2.a1596f27.chunk.css": "/AshleyManese_Portfolio/static/css/2.a1596f27.chunk.css",
+    "static/js/2.b1ce60bd.chunk.js": "/AshleyManese_Portfolio/static/js/2.b1ce60bd.chunk.js",
+    "static/js/2.b1ce60bd.chunk.js.map": "/AshleyManese_Portfolio/static/js/2.b1ce60bd.chunk.js.map",
+    "index.html": "/AshleyManese_Portfolio/index.html",
+    "static/css/2.a1596f27.chunk.css.map": "/AshleyManese_Portfolio/static/css/2.a1596f27.chunk.css.map",
+    "static/js/2.b1ce60bd.chunk.js.LICENSE.txt": "/AshleyManese_Portfolio/static/js/2.b1ce60bd.chunk.js.LICENSE.txt",
+    "static/media/bitmoji2.0a986fa3.png": "/AshleyManese_Portfolio/static/media/bitmoji2.0a986fa3.png",
+    "static/media/camera.c0f76589.svg": "/AshleyManese_Portfolio/static/media/camera.c0f76589.svg",
+    "static/media/game.75d58829.svg": "/AshleyManese_Portfolio/static/media/game.75d58829.svg",
+    "static/media/snapchat.1d767f53.svg": "/AshleyManese_Portfolio/static/media/snapchat.1d767f53.svg",
+    "static/media/timer.9ae7b2f1.svg": "/AshleyManese_Portfolio/static/media/timer.9ae7b2f1.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3325c7bb.js",
+    "static/css/2.a1596f27.chunk.css",
+    "static/js/2.b1ce60bd.chunk.js",
+    "static/js/main.d321be4b.chunk.js"
+  ]
+}

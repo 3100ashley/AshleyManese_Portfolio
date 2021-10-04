@@ -1,0 +1,361 @@
+* {
+    box-sizing: border-box;
+  
+    margin: 0;
+    padding: 0;
+  }
+ 
+.links img{
+    height: 2em;
+    margin-bottom: -10px;
+}
+nav a {
+    text-decoration: none;
+    color: #3A405A;
+    padding-right: 12px;
+    
+}
+nav a:visited, footer a:visited {
+    text-decoration: none;
+}
+nav{
+    background-color: white;
+    padding-top: 25px;
+    padding-left: 30px;
+    font-size: 1.2em;
+    font-family: 'Open Sans', sans-serif;
+    width: 100vw;
+    margin-bottom: 18px;
+    position: fixed;
+    box-shadow: 0px 5px 5px gray;
+    
+}
+
+.top-container{
+    background-color: #FDF6F0;
+  
+  
+
+}
+.info-section img {
+    width: 25em
+}
+.info-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.top-container svg{
+   display: block;
+   margin-bottom: 0;
+   margin-top: 10px;
+ 
+}
+
+
+.type-writer{
+    font-family: 'Cutive Mono', monospace;
+    font-size: 2em;
+}
+
+.text{
+    color:#7B78A4;
+    font-family: 'Sacramento', cursive;
+    font-size: 5em;
+    padding-top: 80px;
+    
+}
+
+.projects-section{
+   
+    background-color: #FFFFFF;
+    margin-top: -2px;
+
+}
+.projects-section h1{
+    color: #463077;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+   
+}
+.bottomContainer h1 {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    color: #463077;
+    padding-bottom: 2em;
+  
+}
+.projects-box{
+    height: 50rem;
+    width: 55%;
+    background-color: #F9F7FF;
+    border-radius: 1em;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+.card{
+    height: 10rem;
+    width: 10rem;
+    border-radius: 5em;
+}
+
+.card-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.cardInfo-container{
+    display: flex;
+    flex-direction: row;
+    gap: 1.5em;
+}
+.cardInfo{
+    margin: auto 0;
+   
+}
+.cardInfo h2{
+    font-family: 'Cutive Mono', monospace;
+    margin: 10px 0;
+    font-size: 1.2em;
+  
+}
+.cardInfo p{
+    width: 20em;
+    font-family: 'Open Sans', sans-serif;
+    color: #3A405A;
+}
+.bottomContainer svg{
+    margin-bottom: 0;
+}
+.bottomContainer div{
+    background-color: #F9DEDC;
+    margin-top: -10px;
+    
+    
+} 
+
+.exerience-card{
+    height: 15em;
+    width: 50%;
+    text-align: center;
+    background-color:#F9F7FF ;
+    
+}   
+  
+  
+.exerience-card h2{
+    background-color:#F9F7FF ;
+    padding: .7em;
+    border-top-left-radius: 1em;
+    border-top-right-radius: 1em;
+    font-family: 'Cutive Mono', monospace;
+    
+}
+.exerience-card h3{
+    background-color:#F9F7FF ;
+    margin-top: -12px;
+    font-family: 'Cutive Mono', monospace;
+    
+}
+.exerience-card p{
+    color: #3A405A;
+    background-color:#F9F7FF ;
+    padding: 1em;
+    border-bottom-right-radius: 1em;
+    border-bottom-left-radius: 1em;
+    font-family: 'Quicksand', sans-serif
+}
+.exp-card-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+.pulse:hover {
+    animation: pulse;
+    animation-duration: 1s;
+
+}
+/*---------- ABOUT ME -----------*/
+.pdf-hover:hover {
+    background-color: gray;
+  }
+  
+  .introduction {
+    margin: auto;
+    width: 30%;
+    text-align: left;
+  }
+  .profile-img {
+    border-radius: 100%;
+    height: 350;
+    width: 200px;
+    margin-bottom:50px;
+  } 
+  .about-me{
+      margin-left: 6em;
+      display: flex;
+      align-self: center;
+      align-items: center;
+      gap: 4em;
+      margin-bottom: 3em;
+    
+  }
+  .about-me-container h2 {
+    font-family: Montserrat;
+    text-align: center;
+    padding-top: 50px;
+    color: #393e46;
+    padding-bottom: 2em;
+    
+  
+  }
+  .about-me-container{
+    background-color: white;
+    height: 100%;
+    padding-bottom: 25px;
+  
+  }
+  
+  .introduction p {
+    font-family: 'Montserrat', sans-serif;
+    text-align: left;
+  }
+  
+  
+  
+  #img-console {
+      width: 100%;
+    justify-content: center;
+  }
+  #console {
+      margin: 40px;
+      margin-top: 20px;
+      padding: 30px;
+      overflow-y:auto;
+      line-height: 22px;
+      height: 390px;
+      width: 550px;
+      font-size: 90%;
+      font-family: Monaco,monospace;
+      border-top: 20px solid #e5e5e5;
+      border-radius: 4px;
+      background-color: #2a2d34;
+      box-shadow: 12px 12px 1px #d7d3e7;
+    text-align: left;
+  
+  }
+  
+  #console a {
+      text-decoration: underline;
+  }
+  
+  .first-color {
+      color: #ac78c2;
+  }
+  .second-color {
+      color: #c5c8c6;
+  }
+  
+  .third-color {
+      color: #5888ca;
+  }
+  
+  .fourth-color {
+      color: #f0c674;
+  }
+  
+  .fifth-color {
+      color: #b5bd68;
+  }
+  
+  
+  #about-img {
+      height: 450px;
+      border-radius: 4px;
+      border-top: 20px solid #e5e5e5;
+      box-shadow: 12px 12px 1px #d7d3e7;
+      overflow-y:hidden;
+      margin: 40px;
+      margin-top: 20px;
+  }
+  
+@media screen and (min-width:1300px){
+    .about-me{
+        margin-left: 10em;
+    }
+
+}
+@media screen and (min-width:1500px){
+    .about-me{
+        margin-left: 15em;
+    }
+
+}
+@media screen and (min-width:1600px){
+    .about-me{
+        margin-left: 20em;
+    }
+
+}
+@media screen and (min-width:1700px) {
+
+    .about-me{
+        margin-left: 25em;
+    }
+    .cardInfo h2{
+        margin: 10px 0;
+        width: 21em;
+        margin-right: auto;
+        text-align:center;
+    }
+    .cardInfo p{
+       margin:auto;
+       text-align: center;
+        
+    }
+    .card-container{
+        display: grid;
+        grid-template-rows:repeat(2,1fr);
+        grid-template-columns:repeat(2,1fr);
+        margin:auto;
+    }
+    .cardInfo-container{
+        flex-direction: column;
+        gap:0;
+        width: 25em;
+        
+    }
+    .cardInfo-container a{
+        display: flex;
+        justify-content: center;
+    }
+    .info-section{
+       
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .info-section img{
+        margin-top: 15em;
+        margin-left: 20em
+    }
+
+
+}
+
+@media screen and (min-width:1800px) {
+    .about-me{
+        margin-left: 32em;
+    }
+}
