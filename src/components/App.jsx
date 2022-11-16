@@ -1,21 +1,12 @@
-import React, {useState} from 'react';
-import TopContainer from './TopContainer'
-import ProjectsContainer from './ProjectsContainer';
-import BottomContainer from './BottomContainer'
+import "../css/App.css"
 
-
-function App(){
-    
-    return (
-        <div>
-            <TopContainer></TopContainer>
-            <ProjectsContainer></ProjectsContainer>
-            <BottomContainer></BottomContainer>
-            
-            
-
-        </div>
-    )
+import TopContainer from "./TopContainer";
+function App() {
+  return (
+    <div>
+      <TopContainer></TopContainer>
+    </div>
+  );
 }
 
 export default App;
