@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/AshleyManese_Portfolio/static/css/main.3ea5d28e.css",
+    "main.js": "/AshleyManese_Portfolio/static/js/main.bd47c81e.js",
+    "static/media/ashley_manese.JPEG": "/AshleyManese_Portfolio/static/media/ashley_manese.328ca18bc42468fb0e28.JPEG",
+    "static/media/bitmoji2.png": "/AshleyManese_Portfolio/static/media/bitmoji2.0a986fa31b2cc7e23f85.png",
+    "static/media/personal-logo.svg": "/AshleyManese_Portfolio/static/media/personal-logo.be6b1c754d5ccca4d82199480b29347b.svg",
+    "static/media/ashleymanese_resume.pdf": "/AshleyManese_Portfolio/static/media/ashleymanese_resume.397daefb49b2d9e772c8.pdf",
+    "static/media/SnapchatLogo.svg": "/AshleyManese_Portfolio/static/media/SnapchatLogo.771470e9bf526805fdbd5830407fbfb5.svg",
+    "static/media/USULogo.svg": "/AshleyManese_Portfolio/static/media/USULogo.b84e6326a57d89d5b4be349007911074.svg",
+    "static/media/pocket-coach-logo.svg": "/AshleyManese_Portfolio/static/media/pocket-coach-logo.77ddf325cb167a33598aceffe80056ad.svg",
+    "static/media/SnapchatAcademyLogo.svg": "/AshleyManese_Portfolio/static/media/SnapchatAcademyLogo.d6337155fe3330586f5116f64082b930.svg",
+    "static/media/timer.svg": "/AshleyManese_Portfolio/static/media/timer.b5f2c8c4a6b3c181aa262fc2fcc25065.svg",
+    "static/media/camera.svg": "/AshleyManese_Portfolio/static/media/camera.0c72c01659b7ae80eef58f32d9b63c2e.svg",
+    "static/media/DFSLogo.svg": "/AshleyManese_Portfolio/static/media/DFSLogo.fde87834669744400b15e9e989911d61.svg",
+    "static/media/mark-my-words-icon.svg": "/AshleyManese_Portfolio/static/media/mark-my-words-icon.714aca7737637c6a82076d901b6a5a1a.svg",
+    "static/media/cards.svg": "/AshleyManese_Portfolio/static/media/cards.5f2d75305849f8afe9ad93e9cd7c5425.svg",
+    "index.html": "/AshleyManese_Portfolio/index.html",
+    "main.3ea5d28e.css.map": "/AshleyManese_Portfolio/static/css/main.3ea5d28e.css.map",
+    "main.bd47c81e.js.map": "/AshleyManese_Portfolio/static/js/main.bd47c81e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3ea5d28e.css",
+    "static/js/main.bd47c81e.js"
+  ]
+}
