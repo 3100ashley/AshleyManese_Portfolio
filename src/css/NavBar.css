@@ -1,0 +1,90 @@
+nav {
+    padding: 12px 70px;
+    background-color: #FDF6F0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000;
+    box-shadow: 5px 5px 5px #e5dfd9;
+    font-family: 'Encode Sans', sans-serif;
+    font-weight: 600;
+}
+
+.sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+
+nav a {
+    color: #7B78A4;
+    font-size: 1.2em;
+}
+
+nav a:link,
+nav a:visited,
+.mobile-view-content a:link,
+.mobile-view-content a:visited {
+    text-decoration: none;
+}
+
+
+nav img {
+    width: 80px;
+}
+
+nav a:hover {
+    color: #8793BB;
+}
+
+nav div {
+    display: flex;
+    gap: 12px;
+}
+
+.hamburger {
+    color: #7B78A4;
+    font-size: 2.5em;
+}
+
+.hamburger:hover {
+    color: #8793BB;
+}
+
+.mobile-view-item {
+    background-color: #FDF6F0;
+    color: #7B78A4;
+    border-bottom: dotted .2px;
+    padding: 12px;
+    padding-left: 5em;
+}
+
+.mobile-view-item a {
+    color: #7B78A4;
+    font-family: 'Encode Sans', sans-serif;
+    font-weight: 600;
+    font-size: 1.2em;
+}
+
+.mobile-view-item a:hover {
+    color: #8793BB;
+}
+
+.mobile-view-content {
+    display: none;
+}
+
+.main-content {
+    display: none;
+}
+
+@media screen and (min-width: 850px) {
+    .hamburger{
+       display: none;
+    }
+
+    .main-content{
+        display: flex;
+    }
+
+}

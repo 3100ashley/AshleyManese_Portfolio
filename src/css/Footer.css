@@ -1,0 +1,20 @@
+footer {
+    background-color: #FDF6F0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 24px;
+    gap: 20px;
+    font-family: 'Montserrat', sans-serif;
+    color: #7B78A4;
+    font-size: 1.2rem;
+}
+footer a {
+    color:#7B78A4;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color:#a9a6cf;
+    text-decoration: none;
+}
