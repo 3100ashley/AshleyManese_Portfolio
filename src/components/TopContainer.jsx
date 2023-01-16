@@ -1,4 +1,4 @@
-import React from 'react';
+ import React from 'react';
 import bitmoji from '../images/bitmoji2.png';
 import Typewriter from 'typewriter-effect';
 import "../css/TopContainer.css"
@@ -7,11 +7,13 @@ function TopContainer(){
     return(
         <div className="top-container">
                 <div className="info-section">
-                <h1 className="text">I'm Ashley </h1>
-                    <div className="name-container">
-                        <span className="type-writer">
-                            <Typewriter options={{strings: ['A programmer in the making'],autoStart: true,loop: true,}}/>
-                        </span>
+                    <div>
+                        <h1 className="text">I'm Ashley </h1>
+                        <div className="name-container">
+                            <span className="type-writer">
+                                <Typewriter options={{strings: ['A programmer in the making'],autoStart: true,loop: true,}}/>
+                            </span>
+                        </div>
                     </div>
                     <img src={bitmoji} alt="bitmoji" />
                 </div>

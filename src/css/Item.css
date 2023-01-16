@@ -1,0 +1,29 @@
+.item-container {
+    border: solid 1px;
+    border-radius: 8px;
+    width: calc(50% - 24px);
+    height: 30px;
+    color: #7B78A4;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.item-container h6{
+    margin: auto;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 80%;
+}
+
+@media screen and (min-width: 850px) {
+   .item-container{
+    width: calc(33.33% - 24px);
+   } 
+
+}
+@media screen and (min-width: 950px) {
+    .item-container{
+     width: calc(25% - 24px);
+    } 
+ 
+ }
