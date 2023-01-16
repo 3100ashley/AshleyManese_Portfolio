@@ -3,6 +3,7 @@ import "../css/NavBar.css";
 import PersonalLogo from "../images/personal-logo.svg";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { useState } from "react";
+import Resume from "../images/ashleymanese_resume.pdf"
 
 function NavBar() {
   const [toggle, setToggle] = useState(false);
@@ -11,12 +12,12 @@ function NavBar() {
     <>
     <div>
       <nav className="sticky">
-        <a href="/">
+        <a href="#">
           <img src={PersonalLogo} alt="person logo" />
         </a>
         <div className="main-content">
           <a href="#about">about</a>
-          <a href="/">resume</a>
+          <a href={Resume}>resume</a>
           <a href="#experience">experience</a>
           <a href="#projects">projects</a>
         </div>
@@ -37,7 +38,7 @@ function NavBar() {
           <a href="#about">about</a>
         </div>
         <div className="mobile-view-item">
-          <a href="/">resume</a>
+          <a href={Resume}>resume</a>
         </div>
         <div className="mobile-view-item">
           <a href="#experience">experience</a>
